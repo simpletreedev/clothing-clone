@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import AlsoLike from "./AlsoLike";
 import Shipping from "./Shipping";
+import { useEffect } from "react";
 
 const Container = styled.div``;
 
@@ -106,6 +107,9 @@ const MoreInfo = styled.div`
   cursor: pointer;
 `;
 const Product = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Container>
       <NavBar />

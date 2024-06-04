@@ -119,9 +119,9 @@ const ParaBottom = styled.p`
   text-align: center;
 `;
 const Shipping = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const [isFaq, setIsFaq] = useState(false);
-  const [isReturns, setIsReturns] = useState(false);
+  const [isReturns, setIsReturns] = useState(true);
   return (
     <Container>
       <Wrapper>
